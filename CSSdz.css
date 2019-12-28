@@ -1,1 +1,45 @@
 /*styles*/
+.aboutLe {
+    background-color : red;
+    display: grid;
+
+}
+ul#menu li {
+    display:inline;
+  }
+.navigat {
+    background-color: greenyellow;
+    grid-template-rows: 100%;
+    display: grid;
+}
+.textMe {
+    background-color: purple;
+    display: grid;
+
+}
+.collumn {
+    grid-template-columns: 20% 60% ;
+}
+.wraper {
+    display: grid;
+    grid-template-columns: 10% 2fr 1fr;
+    grid-auto-rows: minmax(100px auto);
+}
+.footer {
+    display: grid;
+    align-items: end;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	background-color: darkgrey;
+	color: white;
+    min-height: 30px;
+}
+.form { display: grid;
+    text-align: center;
+    background-color: salmon;
+    grid-template-columns: 100%;
+}
+.image {
+    font-size: 1em;
+}
